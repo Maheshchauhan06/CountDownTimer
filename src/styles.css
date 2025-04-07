@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input_container {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.input_container > label {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input_container > label > input {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border-width: 0.02rem;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.btn-container > button {
+  background: rgb(205, 214, 218);
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
